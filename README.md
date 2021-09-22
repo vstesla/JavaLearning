@@ -1,2 +1,2 @@
 # JavaLearning
-I will put my java file to this repository.
+I will put my java files to this repository.
