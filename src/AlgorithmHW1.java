@@ -21,11 +21,13 @@ public class AlgorithmHW1 {
         }
 
         Stack<String> st = new Stack<String>();
-        st.push("1");//压入元素
-        st.push("2");
-        st.push("3");
-        st.push("4");
-        st.push("5");
+        for(int i = 0;i < 5;i++)
+            st.push("a" + i);
+//        st.push("1");//压入元素
+//        st.push("2");
+//        st.push("3");
+//        st.push("4");
+//        st.push("5");
 
         Iterator<String> its = st.iterator();
 
