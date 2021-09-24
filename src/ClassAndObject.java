@@ -7,7 +7,7 @@ public class ClassAndObject {
 
         public ClassAndObject(String name) {
             // 这个构造器仅有一个参数：name
-            System.out.println("小狗的名字是: " + name);
+            System.out.println("The puppy name is: " + name);
         }
 
         public void setAge(int age) {
@@ -15,7 +15,7 @@ public class ClassAndObject {
         }
 
         public int getAge() {
-            System.out.println("小狗的年龄为: " + puppyAge);
+            System.out.println("The puppy age is: " + puppyAge);
             return puppyAge;
         }
 
@@ -27,7 +27,7 @@ public class ClassAndObject {
             /* 调用另一个方法获取age */
             myPuppy.getAge();
             /*你也可以像下面这样访问成员变量 */
-            System.out.println("变量值: " + myPuppy.puppyAge);
+            System.out.println("variables: " + myPuppy.puppyAge);
         }
     }
 
