@@ -1,7 +1,9 @@
 /**
  * 第一次算法课作业
  */
+
 import java.util.*;
+
 public class AlgorithmHW1 {
     public static void main(String[] args) {
         Queue<String> queue = new LinkedList<String>();
@@ -21,8 +23,8 @@ public class AlgorithmHW1 {
         }
 
         Stack<String> st = new Stack<String>();
-        for(int i = 0;i < 5;i++)
-            st.push("a" + i);
+        for (int i = 0; i < 5; i++)
+            st.push("a = " + i);
 //        st.push("1");//压入元素
 //        st.push("2");
 //        st.push("3");
