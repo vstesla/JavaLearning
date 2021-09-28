@@ -5,6 +5,7 @@
 import java.util.*;
 
 public class AlgorithmHW1 {
+
     public static void main(String[] args) {
         Queue<String> queue = new LinkedList<String>();
         //添加元素
@@ -14,13 +15,12 @@ public class AlgorithmHW1 {
         queue.offer("4");
         queue.offer("5");
 
-        Iterator<String> it = queue.iterator();
-
+        Iterator<String> it1 = queue.iterator();
         System.out.println("Queue:");
-
-        while (it.hasNext()) {
-            System.out.println(it.next());
+        while(it1.hasNext()){
+            System.out.println(it1.next());
         }
+
 
         Stack<String> st = new Stack<String>();
         for (int i = 0; i < 5; i++)
@@ -30,15 +30,14 @@ public class AlgorithmHW1 {
 //        st.push("3");
 //        st.push("4");
 //        st.push("5");
-
-        Iterator<String> its = st.iterator();
-
+        Iterator<String> it2 = st.iterator();
         System.out.println("Stack:");
-
-        while (its.hasNext()) {
-            System.out.println(its.next());
+        while(it2.hasNext()){
+            System.out.println(it2.next());
         }
+
     }
 }
+
 
 
